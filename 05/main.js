@@ -1,16 +1,16 @@
 // 1. Система уравнений
 
-// let a = parseFloat(prompt('Enter a', ''));
-// let b = parseFloat(prompt('Enter b', ''));
-// let x;
-// if (a > b) {
-//   x = a + b / 2 * 4;
-// } else if (a = b) {
-//   x = 400;
-// } else if (a < b) {
-//   x = a - b + 2 / b * 4;
-// }
-// console.log(x);
+let a = parseFloat(prompt('Enter a', ''));
+let b = parseFloat(prompt('Enter b', ''));
+let x;
+if (a > b) {
+  x = a + b / 2 * 4;
+} else if (a = b) {
+  x = 400;
+} else if (a < b) {
+  x = a - b + 2 / b * 4;
+}
+console.log(x);
 
 
 // 3. Дни недели
