@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW-05_Ex08. LoginAge16+</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>HW-05_Ex08. LoginAge16+</h1>
+
+<p><h3>Задание</h3></p>
+
+<p><h5>Пользователь вводит год рождения.</h5></p>
+<p><h5>Программа показывает количество лет</h5></p>
+<p><h5>Если лет больше или равно 16, то пишет – «добро пожаловать», если нет – «вход воспрещен».</h5></p>
+
+<p><h3>Выполнение</h3></p>
+
+<p><label for="inpA">Введите свой возраст:</label> <input type="number" class=inpA id="inpA" placeholder="Возраст"
+                                                            title="Введите возраст"
+                                                            onfocus="this.style.background = 'lemonchiffon';"
+                                                            onblur="this.style.background = '';"></input></p>
+
+<button class="calculate" id="calculate" onclick="access()">Вход</button>
+<p><textarea class="result" id="result" placeholder="Доступ по возрасту"></textarea></p>
+<script src="js/script_HW-05_Ex08.js"></script>
+</body>
+</html>

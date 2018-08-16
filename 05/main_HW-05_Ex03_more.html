@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW-05_Ex03_more. DayOfTheWeek</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>HW-05_Ex03_more. DayOfTheWeek</h1>
+<h3>Программа показывает день недели по счету от начала недели</h3></p>
+<p><label for="inpA">Введите номер дня недели:</label> <input type="text" class=inpA id="inpA"
+                                                              placeholder="Номер дня недели"
+                                                              title="Введите номер дня недели"
+                                                              onfocus="this.style.background = 'lemonchiffon';"
+                                                              onblur="this.style.background = '';"></input></p>
+
+<p>C какого дня начинаенся неделя?</p>
+<p><label for="vs"><input type="radio" name="week" value="vs" id="vs" checked>С воскресенья</label><br>
+    <label for="pn"><input type="radio" name="week" value="pn" id="pn">С понедельника</label>
+</p>
+<button class="calculate" id="calculate" onclick="calculating()">Какой день?</button>
+<p><textarea class="result" id="result"></textarea></p>
+
+<script src="js/script_HW-05_Ex03_more.js"></script>
+</body>
+</html>

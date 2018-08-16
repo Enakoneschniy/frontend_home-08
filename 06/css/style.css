@@ -1,0 +1,28 @@
+* {
+
+}
+
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+h3 {
+    color: firebrick;
+}
+
+img {
+    width: 600px;
+}
+
+input {
+    width: 50px;
+}
+
+#result {
+    color: darkred;
+}

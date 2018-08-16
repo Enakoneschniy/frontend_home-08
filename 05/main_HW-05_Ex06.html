@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW-05_Ex06. Apartment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>HW-05_Ex06. Apartment</h1>
+<p><h3>Программа расчитывает в каком подъезде находится квартира</h3></p>
+<p><label for="inpA">Введите номер квартиры:</label> <input type="number" class=inpA id="inpA" placeholder="Квартира"
+                                                            title="Введите номер квартиры"
+                                                            onfocus="this.style.background = 'lemonchiffon';"
+                                                            onblur="this.style.background = '';"></input></p>
+<button class="calculate" id="calculate" onclick="calculating()">Вычислить</button>
+<p><textarea class="result" id="result" placeholder="Номер подъезда"></textarea></p>
+<script src="js/script_HW05_Ex06.js"></script>
+</body>
+</html>

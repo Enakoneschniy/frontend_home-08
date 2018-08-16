@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW-06_ExAll</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>HW-06_ExAll. PrintingNumbers</h1>
+
+<p>
+<h3>Задание</h3></p>
+<p>
+<ol>
+    <li>Вывести числа от 4 до 400 на экран</li>
+    <li>Вывести числа в последовательности: 4 7 10 13 с помощью цикла</li>
+    <li>Вывести числа 654 653 652 до нуля</li>
+    <li>Вывести все годы с 1983 до 2017</li>
+    <li>Вывести числа -4 -2 0 2 4 6 ...100</li>
+    <li>С помощью цикла напечатайте таблицу умножения на 7 от 1 до 9</li>
+    <li>Выведите с помощью цикла коды спецсимволов от 1000 до 2000. (Cпецсимвол получается комбинацией
+        &#число; Например ӆ)
+    </li>
+    <li>Найти сумму чисел от 0 до 100 (включительно). (0+1+2+3+4+5)</li>
+    <li>С помощью цикла вывести произведение чисел от 1 до 50</li>
+</ol>
+</p>
+<h3>Выполнение</h3></p>
+
+<p><label for="inpA">Выберите номер задания:</label>
+    <input type="number" class=inpA id="inpA" title="Введите номер задания" max="9" value="1"
+           onfocus="this.style.background = 'lemonchiffon';" onblur="this.style.background = '';"></input></p>
+<button class="calculate" id="calculate" onclick="calculating()">Получить результат</button>
+<button class="clear" id="clear" onclick="clearing()">Очистить страницу</button>
+<p></p>
+<!--<p><textarea class="result" id="result" placeholder="Результат"></textarea></p>-->
+<div class="result"  id="result"></div>
+<script src="js/script_HW-06_ExAll.js"></script>
+</body>
+</html>

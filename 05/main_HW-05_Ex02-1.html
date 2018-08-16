@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coordinate_01</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>HW-05_Ex02-1. Coordinate_01</h1>
+<h3>Задание:</h3>
+<p> При помощи "prompt" запросить у пользователя координату по оси x и координату по оси y.</p>
+<p>Далее определить попадает ли точка с этими координатими в заштрисованную область.</p>
+<p> Если попадает, то вывести сообщение "Точка попадает в область" если нет то "Точка НЕ попадает в область"</p>
+
+<img src="img/fig1.png" alt="Изображение отсутствует">
+<h3>Действие:</h3>
+<p><label for="inpA">Введите координату "X":</label> <input type="text" class= inpA id="inpA" placeholder="'X'"
+                                                title="Введите координату 'X'" width = "10px"
+                                                onfocus="this.style.background = 'lemonchiffon';" onblur="this.style.background = '';"></input></p>
+
+<p><label for="inpB">Введите координату "Y":</label> <input type="text" class= inpB id="inpB" placeholder="'Y'"
+                                                title="Введите координату 'Y'" width = "10px"
+                                                onfocus="this.style.background = 'lemonchiffon';" onblur="this.style.background = '';"></input></p>
+
+<button class="calculate" id="calculate" onclick="calculating()">Вычислить</button>
+<p><textarea class="result" id="result"  placeholder="Ответ"></textarea></p>
+
+<script src="js/script_HW-05_Ex02-1.js"></script>
+</body>
+</html>

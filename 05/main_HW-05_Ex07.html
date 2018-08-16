@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW-05_Ex07. LoginPassword</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>HW-05_Ex07. LoginPassword</h1>
+
+<p><h3>Задание</h3></p>
+
+<p><h5>Пользователь вводит логин и пароль.</h5></p>
+<p><h5>Если логин и пароль совпадают с указанными ниже, то выводится «Добро пожаловать».
+Если не совпадают – то «Ошибка входа».</h5></p>
+
+<img src="img/img_01.png" id="img_logPsw" alt="Изображение отсутствует">
+
+<p><h3>Выполнение</h3></p>
+
+<p><label for="inpA">Логин:</label> <input type="text" class=inpA id="inpA" placeholder="Логин"
+                                                            title="Введите логин"
+                                                            onfocus="this.style.background = 'lemonchiffon';"
+                                                            onblur="this.style.background = '';"></input></p>
+<p><label for="inpB">Пароль:</label> <input type="text" class=inpB id="inpB" placeholder="Пароль"
+                                           title="Введите пароль"
+                                           onfocus="this.style.background = 'lemonchiffon';"
+                                           onblur="this.style.background = '';"></input></p>
+<button class="calculate" id="calculate" onclick="access()">Вход</button>
+<p><textarea class="result" id="result" placeholder="Доступ"></textarea></p>
+<script src="js/script.js"></script>
+</body>
+</html>
