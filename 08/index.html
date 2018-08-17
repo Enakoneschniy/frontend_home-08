@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img{
+            margin-right: 50px;
+        }
+        span{
+            margin-right: 10px;
+        }
+        form{
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input[type="radio"] {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+<button>button - 1</button>
+<button>button - 2</button>
+<span id="counter"></span>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vel?</p>
+
+<img src="img/1.jpg" alt="">
+<img src="img/2.jpg" alt="">
+<img src="img/3.jpg" alt="">
+
+
+
+<form id="hamburger_form" >
+    <h1>Вас приветствует магазин гамбургеров</h1>
+
+    <fieldset>
+        <legend>выберите размер гамбургера:</legend>
+        <label for="big">большой (25грн, 340 ккал)</label>
+        <input type="radio" id="big" name="size" data-price="25" data-caloricity="340" checked>
+        <label for="small">маленький (17грн, 250 ккал)</label>
+        <input type="radio" id="small" name="size" data-price="17" data-caloricity="250">
+    </fieldset>
+    <fieldset>
+        <legend>Бургер дополняется одной или несколькими начинками (обязательно одна должна быть):</legend>
+        <h4><label for="cheese">сыр (+ 4грн, + 25 ккал)</label></h4>
+        <input type="checkbox" id="cheese" data-price="4" data-caloricity="25">
+        <h4><label for="salad">салат (+ 5грн, + 5 ккал)</label></h4>
+        <input type="checkbox" id="salad" data-price="5" data-caloricity="5">
+        <h4><label for="ham">ветчина (+ 10грн, + 50 ккал)</label></h4>
+        <input type="checkbox" id="ham" data-price="10" data-caloricity="50">
+    </fieldset>
+    <fieldset>
+        <legend>Дополнительно (не обязательно), гамбургер можно дополнить:</legend>
+        <h4><label for="sauce">Соус (+5грн, 0 ккал)</label></h4>
+        <input type="checkbox" id="sauce" data-price="5" data-caloricity="0">
+        <h4><label for="mayonnaise">майонез (+ 4грн, + 10 ккал)</label></h4>
+        <input type="checkbox" id="mayonnaise" data-price="4" data-caloricity="10">
+    </fieldset>
+    <input type="submit" value="Отправить заказ">
+
+</form>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
