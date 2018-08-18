@@ -8,4 +8,3 @@ for ( var x = 0; x < 9; x++ ) {
 		arr.push(element * element.length);
 }
 
-console.log( arr );
