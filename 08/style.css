@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.animals {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.one,
+.two,
+.three {
+	width: 32%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+
+.animals h1 {
+	text-transform: uppercase;
+	color: #0c040194;
+}
+
+.animals img {
+	width: 300px;
+	height: 300px;
+	margin: 20px 0;
+	border-radius: 50%;
+}
+
+.animals p {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
