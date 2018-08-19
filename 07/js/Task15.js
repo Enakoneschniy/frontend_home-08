@@ -59,12 +59,22 @@ function arrayMatrix ( rows, columns ) {
       if ( i == j ) {
         arr[i][j] = 1;
       } else if ( i > j ) {
-        
+      	arr[i][j] = summ();
+      	function summ (elem1, elem2) {
+      		if ( j === 0 ){
+      			return 1;
+      		} else {
+        	elem1 = arr[i-1][j];
+        	elem2 = arr[i-1][j-1];
+        	return (summ = elem1 + elem2);
+        }
+        }
       }
     }
   }
   return arr;
 }
+
 var myMatrix = arrayMatrix( 10, 10 );
 console.log( myMatrix );
 
