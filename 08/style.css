@@ -44,3 +44,15 @@
 	margin-bottom: 10px;
 	background-color: yellow;
 }
+
+#button {
+	padding: 10px;
+	margin: 20px;
+	background-color: #faeb1994;
+	border: none;
+	border-radius: 10px;
+	display: block;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}

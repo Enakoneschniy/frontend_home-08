@@ -2,10 +2,10 @@
 'use strict';
 
 function numberedPharagraphers() {
-	var text = document.querySelectorAll('p');
-	for ( var i = 0; i < text.length; i++ ) {
-		var num = i + 1;
-		text[i].insertAdjacentHTML('afterBegin', num)
+	let text = document.querySelectorAll('p');
+	for ( let i = 0; i < text.length; i++ ) {
+		let num = i + 1;
+		text[i].insertAdjacentHTML('afterBegin', '№' + num + '. ')
 	}
 }
 numberedPharagraphers();
