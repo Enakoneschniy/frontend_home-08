@@ -11,4 +11,4 @@
     inputArr = inputArr.replace(/\s+/g,'');
     inputArr = inputArr.replace(/,/g,'');
     arrayLength(inputArr);
-})();  //--доработать
+})();  //--доработать--
