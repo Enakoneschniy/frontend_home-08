@@ -5,7 +5,6 @@
         this._calories = calories;
         this.getCost = () => this._price;
         this.getCalories = () => this._calories;
-
         this.add = (...expansions) => {
             expansions.forEach(item => {
                 this[item]();
@@ -49,7 +48,6 @@
                 break;
         }
     }
-
     let burger = new Burger("small").add("salad", "sauce", "ham");
     console.log(burger.getCost());
 })();
