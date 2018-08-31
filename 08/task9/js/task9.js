@@ -1,7 +1,7 @@
 ;(() => {
     'use strict';
     let arrayLength = arr => {
-        if (arr === undefined) {
+        if (arr === "") {
             alert('Error: ошибка ввода');
         } else {
             alert('Массив содержит ' + arr.length + ' элемента(-ов)');
@@ -11,4 +11,4 @@
     inputArr = inputArr.replace(/\s+/g,'');
     inputArr = inputArr.replace(/,/g,'');
     arrayLength(inputArr);
-})();  //--доработать--
+})();
