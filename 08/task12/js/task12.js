@@ -12,7 +12,7 @@
             });
             return this;
         };
-        this.salade = () => {
+        this.salad = () => {
             this._price = this._price + 4;
             this._calories = this._price + 25;
             return this;
@@ -50,7 +50,6 @@
         }
     }
 
-    let burger = new Burger("small").add("salade", "sauce", "ham");
-
+    let burger = new Burger("small").add("salad", "sauce", "ham");
     console.log(burger.getCost());
 })();
