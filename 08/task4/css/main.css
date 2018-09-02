@@ -1,0 +1,43 @@
+html {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+}
+
+.container {
+    display: block;
+    background-color: aliceblue;
+    width: 200px;
+    padding: 20px;
+}
+
+.num {
+    margin-top: 15px;
+}
+
+.btn-1, .btn-2 {
+    color: aliceblue;
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: #333333;
+    border: 2px solid #595959;
+    outline: none;
+}
+
+.btn-1:hover, .btn-2:hover {
+    background-color: #595959;
+}
+
+.btn-1:active, .btn-2:active {
+    font-size: 20px;
+    padding: 11px 31px;
+    color: #ACE2FF;
+}
+
+.test1, .test2 {
+    border: 2px solid #000;
+    padding: 5px 15px;
+    border-radius: 80px 10px;
+    background-color: #ACE2FF;
+}
