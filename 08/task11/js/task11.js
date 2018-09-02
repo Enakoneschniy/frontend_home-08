@@ -7,7 +7,7 @@
             if (Num === userInput) {
                 alert('Поздравляю! Тебе повезло!');
                 break;
-            } else if (i >= 3) {
+            } else if (i === 3) {
                 alert('Ты проиграл! Загаданное число: ' + Num);
             } else if (isNaN(userInput) || userInput === '') {
                 alert('Неверный ввод');
