@@ -5,7 +5,7 @@ console.log( arr );
 
 function reOrder ( arr ) {
 	var newArr = [];
-	for ( i = 0; i < arr.length; i++ ) {
+	for ( var i = 0; i < arr.length; i++ ) {
 		if ( i % 2 === 0 ) {
 			newArr[i] = arr[i+1];
 		} else {
