@@ -3,7 +3,7 @@
 function arrayFill( element, count ) {
 	var arr = [];
 
-	for ( i = 0; i < count; i++ ) {
+	for ( var i = 0; i < count; i++ ) {
   	arr.push( element );
   }
   console.log( arr );
