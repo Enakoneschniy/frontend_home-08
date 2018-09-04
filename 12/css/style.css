@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#cover {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.task1 {
+	display: flex;
+	flex-flow: column;
+	padding: 20px;
+}
+
+.task1 div {
+	width: 200px;
+	height: 100px;
+	border: 1px solid red;
+	margin-bottom: 10px;	
+}
+
+.task1 span {
+	display: flex;
+	flex: row;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+#folder {
+	width: 100px;
+	height: 100px;
+	background: url(../img/folder.png) no-repeat left top / cover;
+}
+
+#task3 {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.small {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	margin: 5px;
+}
+
+
+
+
+
