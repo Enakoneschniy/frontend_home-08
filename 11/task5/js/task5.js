@@ -1,8 +1,8 @@
-;(()=>{
-   'use strict';
-   let user = {
-       name: 'Вася',
-       surname: 'Петров',
-   }
-
-})();
+;(() => {
+    'use strict';
+    let user = {};
+    user.name = "Вася";
+    user.surname = 'Петров';
+    user.name = 'Сергей';
+    delete user.name;
+})(); 

@@ -5,7 +5,7 @@
         height: 300,
         title: "My menu"
     };
-    const multiplyNumeric = (menu) => {
+    const multiplyNumeric = menu => {
         for (let key in menu) {
             menu[key] = isNumeric(menu[key]) ? menu[key] * 2 : menu[key];
         }

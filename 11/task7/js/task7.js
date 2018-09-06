@@ -7,7 +7,7 @@
     };
     let acc = 0;
     for (let key in salaries) {
-        acc += Number(salaries[key]) ? salaries[key] : 0;
+        acc += salaries[key];
     }
     console.log(acc);
 })();
