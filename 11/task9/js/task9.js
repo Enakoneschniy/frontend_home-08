@@ -7,7 +7,9 @@
     };
     const multiplyNumeric = menu => {
         for (let key in menu) {
-            menu[key] = isNumeric(menu[key]) ? menu[key] * 2 : menu[key];
+            if (menu.hasOwnProperty(key)) {
+                menu[key] = isNumeric(menu[key]) ? menu[key] * 2 : menu[key];
+            }
         }
     };
     multiplyNumeric(menu);
