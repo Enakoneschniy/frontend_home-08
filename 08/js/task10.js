@@ -1,6 +1,6 @@
 ( function () {
 'use strict';
-/*function returnNumber (num) {
+function returnNumber (num) {
 	if (num > 10) {
 		num ** 2;
 	} else if (num < 7) {
@@ -9,5 +9,5 @@
 		num - 1;
 	}
 };
-console.log(returnNumber(8));*/
+console.log(returnNumber(8));
 } )();
