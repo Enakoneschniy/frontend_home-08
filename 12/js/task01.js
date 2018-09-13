@@ -27,10 +27,54 @@
 	'use strist';
 
 	for (i = 0; i < 300; i++) {
-		var div = document.getElementById('task3');
-		var child = document.createElement('div');
+		let div = document.getElementById('borderRadius');
+		let child = document.createElement('div');
 		div.appendChild(child).classList.add('small');
-	}; 
+		child.addEventListener('mouseover', changeBodrer);
+	}
 
+	function changeBodrer (event) {
+		let target = event.target;
+
+		if (target.classList.contains('small')) {
+			target.style.borderRadius = "50%";
+		}
+	}
 	
 })();
+
+//Task04
+(() => {
+	'use strict';
+
+	var div = document.querySelector('#div');
+	var img = document.getElementsByClassName('img');
+
+	for (let item of img) {
+		item.addEventListener('click', changeBG);
+	}
+
+	function changeBG (event) {
+		let target = event.target;
+		div.style.background = 'url(' + target.getAttribute('src') + ') no-repeat center center / contain';
+	}
+
+})();
+
+//Task05
+(() => {
+	'use strict';
+
+	let divMove = document.querySelector('#move');
+	divMove.addEventListener('click', moveDiv);
+	let left = 0;
+
+	function moveDiv (event) {
+		left += 100;
+		divMove.style.left = left + 'px';
+	}
+
+
+})();
+
+
