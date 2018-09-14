@@ -5,9 +5,9 @@ const CheckWordsQuantity = (function () {
 
     textArea.addEventListener('input', function () {
         const words = this.value.match(checkWords);
-        if(words.length > 5) {
+        if(words.length > 280) {
            span.textContent = 'Достигнуто максимально количество слов';
-           words.length = 5;
+           words.length = 280;
        }else {
            span.textContent = `Количество введенных слов: ${words.length}`;
        }
