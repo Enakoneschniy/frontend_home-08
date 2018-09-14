@@ -4,14 +4,12 @@ const CheckWordsQuantity = (function () {
     const checkWords = /[A-Za-zА-ЯЁа-яЁ]+/gmi;
 
     textArea.addEventListener('input', function () {
-        const wordsQuant = this.value.match(checkWords).length;
-       if(wordsQuant > 280) {
+        const words = this.value.match(checkWords);
+        if(words.length > 5) {
            span.textContent = 'Достигнуто максимально количество слов';
+           words.length = 5;
        }else {
-
-           console.log(wordsQuant);
-           span.textContent = `Количество введенных слов: ${wordsQuant}`;
+           span.textContent = `Количество введенных слов: ${words.length}`;
        }
-
     })
 })();
