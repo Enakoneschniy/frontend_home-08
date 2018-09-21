@@ -8,10 +8,4 @@
             view.style.backgroundImage = `url(${imgSrc})`;
         })
     }
-
-
 })();
-
-
-
-
